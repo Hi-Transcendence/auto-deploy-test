@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /home/admin/drcloud-deploy
+permissions:
+  - object: /home/admin/drcloud-deploy
+    owner: admin
+    group: admin
+    mode: 755
